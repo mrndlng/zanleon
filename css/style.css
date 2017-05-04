@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Union', sans-serif;
+  src: url(fonts/Union/Union-Regular.otf);
+}
+
+body{
+  font-family: 'Union', sans-serif;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+  font-kerning: normal;
+  background-color: black;
+  color: white;
+}
+
+h1, h2 {
+	padding: 0 1em 0 1em;
+	font-family: Big Caslon, serif;
+}
+
+h1 {
+	padding-top: 1em;
+}
+
+a{
+  text-decoration: underline;
+  color: white;
+}
+
+a:hover{
+  color:red;
+}
+
+/* .title {
+	font-family: Big Caslon, serif;
+	font-size: 1.1em;
+	letter-spacing: 1px;
+	margin-top: 1em;
+} */
+
+img {
+  display: block;
+  max-width: 80vw;
+  margin: 30px auto;
+}
+
+div.slider {
+  position: relative;
+  margin: 0;
+  width: 100%;
+}
+
+.gallery {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gallery img {
+  display: block;
+  max-width: 80vw;
+  margin: 30px auto;
+}
+
+.projects {
+	margin: 1em;
+}
+
+.home {
+	/* background-color: red; */
+}
+
+hr {
+	border-bottom: 1px solid #8c8b8b;
+}
