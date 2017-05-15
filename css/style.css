@@ -22,6 +22,10 @@ h1 {
 	padding-top: 1em;
 }
 
+p {
+  margin-bottom: 1em;
+}
+
 a{
   text-decoration: underline;
   color: white;
@@ -38,7 +42,7 @@ a:hover{
 	margin-top: 1em;
 } */
 
-img {
+img, iframe {
   display: block;
   max-width: 80vw;
   margin: 30px auto;
