@@ -25,12 +25,21 @@
   border-radius: 5px;
   overflow: hidden;
   text-indent: -999em;
-  border: 1px solid white;
+  border: 1px solid #00cc66;
   cursor: pointer;
 }
-.unslider-nav ol li.unslider-active {
-  background: white;
-  cursor: default;
+
+  .unslider-nav ol li.unslider-active {
+    background: #00cc66;
+    cursor: default;
 }
 
-/* #000000 */
+@media only screen and (max-width: 500px) and (min-width: 320px) /* Mobile */ {
+   .unslider-nav ol li {
+      border: 1px solid white;
+   }
+   .unslider-nav ol li.unslider-active {
+    background: white;
+    cursor: default;
+  }
+}
