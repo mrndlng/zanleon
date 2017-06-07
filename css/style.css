@@ -9,8 +9,8 @@ body{
   line-height: 1.2em;
   letter-spacing: 1px;
   font-kerning: normal;
-  background-color: black;
-  color: white;
+  /* background-color: black; */
+  /* color: white; */
 }
 
 h1, h2 {
@@ -29,7 +29,7 @@ p {
 
 a{
   text-decoration: underline;
-  color: white;
+  color: #00cc66;
 }
 
 a:hover{
