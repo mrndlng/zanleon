@@ -16,10 +16,21 @@ body{
 h1, h2 {
 	padding: 0 1em 0 1em;
 	font-family: Big Caslon, serif;
+  text-align: center;
 }
 
 h1 {
 	padding-top: 1em;
+}
+
+h3 {
+  padding: 1.3em;
+  font-family: courier; sans-serif;
+  font-size: 0.8em;
+  letter-spacing: -0.5px;
+  line-height: 1em;
+  color: blue;
+  text-align: center;
 }
 
 p {
