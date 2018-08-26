@@ -58,6 +58,9 @@ img, iframe {
   display: block;
   max-width: 80vw;
   margin: 30px auto;
+  /* -webkit-box-shadow: 10px 13px 31px -12px rgba(92,92,92,1);
+  -moz-box-shadow: 10px 13px 31px -12px rgba(92,92,92,1);
+  box-shadow: 10px 13px 31px -12px rgba(92,92,92,1); */
 }
 
 div.slider {
