@@ -13,26 +13,8 @@ body{
   /* color: white; */
 }
 
-h1 {
-	padding: 1em 1em 0 1em;
-	font-family: 'Union', serif;
-  text-align: left;
-  /* margin-right: 20%; */
-}
-
-h3 {
-  padding: 1.3em;
-  font-family: courier; sans-serif;
-  font-size: 0.6em;
-  letter-spacing: -0.5px;
-  line-height:1em;
-  /* color: blue; */
-  text-align: center;
-}
-
 p {
   margin-bottom: 1em;
-  /* width: 50%; */
 }
 
 a{
@@ -43,13 +25,6 @@ a{
 a:hover{
   color:red;
 }
-
-/* .title {
-	font-family: Big Caslon, serif;
-	font-size: 1.1em;
-	letter-spacing: 1px;
-	margin-top: 1em;
-} */
 
 img, iframe {
   display: block;
@@ -80,6 +55,10 @@ div.slider {
 
 .projects {
 	margin: 1em;
+}
+
+.home p {
+  margin: 1em;
 }
 
 hr {
