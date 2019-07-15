@@ -87,12 +87,9 @@ div.slider {
 	margin: 1em;
 }
 
-.home {
-  /* background-color: #FF5100; */
-}
-
 hr {
 	border-bottom: 1px solid #8c8b8b;
+  margin-bottom: 1.3em;
 }
 
 ::-moz-selection {
