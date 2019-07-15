@@ -79,7 +79,7 @@ div.slider {
 
 .gallery img {
   display: block;
-  max-width: 80vw;
+  max-width: 88vw;
   margin: 30px auto;
 }
 
@@ -87,12 +87,12 @@ div.slider {
 	margin: 1em;
 }
 
-hr {
-	border-bottom: 1px solid #8c8b8b;
+.home {
+  /* background-color: #FF5100; */
 }
 
-img.home {
-  width: 80%;
+hr {
+	border-bottom: 1px solid #8c8b8b;
 }
 
 ::-moz-selection {
