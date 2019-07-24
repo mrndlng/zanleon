@@ -22,9 +22,24 @@ a{
   color: #00cc66;
 }
 
-a:hover{
+a:hover {
   color:red;
 }
+
+button {
+  font-size: 1em;
+  margin-top: 1em;
+  border: 1.5px solid;
+  opacity: 0.3;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 1;
+  cursor: crosshair;
+}
+
+
 
 img, iframe {
   display: block;
@@ -99,5 +114,12 @@ hr {
     /* width: 100%; */
     font-size: 0.8em;
     line-height: 1.2em;
+  }
+  button {
+    font-size: 1em;
+    margin-top: 1em;
+    border: 1px solid white;
+    background: none;
+    color: white;
   }
 }
