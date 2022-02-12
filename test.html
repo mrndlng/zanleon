@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Miranda Leung</title>
+	<link type="text/css" rel="stylesheet" href="css/reset.css">
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link type="text/css" rel="stylesheet" href="js/unslider/dist/css/unslider.css">
+	<link type="text/css" rel="stylesheet" href="js/unslider/dist/css/unslider-dots.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-101643077-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-101643077-1');
+	</script>
+</head>
+<body>
+	<div class="home">
+		<p>MIRANDA LEUNG 梁振倫
+		<br><a href="mailto:mrndlng@gmail.com" target="_top">mrndlng@gmail.com</a>
+		<br></p>
+		<button onclick="this.style.visibility= 'hidden'; myFunction()">Info</button>
+		<p id="about"></p>
+		<script>
+		function myFunction() {
+			document.getElementById("about").innerHTML = "livin low n' slow. ask me about what it means to come home.";
+		}
+		</script>
+	<img src="img/hpg/heron.png">
+	</div>
+	<img name="slide"/>
+	<!-- <img name="slide" width="400" height="200" /> -->
+	<script>
+		var i = 0; 			// Start Point
+		var images = [];	// Images Array
+		var time = 3000;	// Time Between Switch
+
+		// Image List
+		images[0] = "https://mirandaleung.com/img/urban/urban_1.jpg";
+		images[1] = "https://mirandaleung.com/img/axios/hard-truths_2.png";
+		images[2] = "https://mirandaleung.com/img/middle-child/mc_villa_seafood.png";
+		images[3] = "https://mirandaleung.com/img/baph/baph_opening3.jpg";
+
+		// Change Image
+		function changeImg(){
+			document.slide.src = images[i];
+
+			// Check If Index Is Under Max
+			if(i < images.length - 1){
+			  // Add 1 to Index
+			  i++;
+			} else {
+				// Reset Back To O
+				i = 0;
+			}
+
+			// Run function every x seconds
+			setTimeout("changeImg()", time);
+		}
+
+		// Run function when page loads
+		window.onload=changeImg;
+	</script>
+</body>
