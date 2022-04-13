@@ -10,12 +10,11 @@
 
 body{
   font-family: 'Union', sans-serif;
+  /* font-weight: lighter; */
   font-size: 1.2em;
-  line-height: 1.5em;
+  line-height: 1.4em;
   letter-spacing: 1px;
-  font-kerning: normal;
-  /* background-color: black; */
-  /* color: white; */
+  /* font-kerning: normal; */
 }
 
 p {
@@ -23,8 +22,11 @@ p {
 }
 
 .title {
+  font-family: 'Sentinel', serif;
+  font-weight: normal;
   font-size: 1.3em;
-  line-height: 1.5em;
+  line-height: 1.3em;
+  letter-spacing: 0.5px;
 }
 
 a{
