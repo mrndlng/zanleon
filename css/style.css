@@ -3,6 +3,11 @@
   src: url(fonts/Union/Union-Regular.otf);
 }
 
+@font-face {
+  font-family: 'Sentinel';
+  src: url(fonts/Sentinel/Sentinel-Book.otf);
+}
+
 body{
   font-family: 'Union', sans-serif;
   font-size: 1.2em;
