@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Union', sans-serif;
-  src: url(fonts/Union/Union-Regular.otf);
+  src: url("fonts/Union/Union-Regular.otf");
 }
 
 @font-face {
   font-family: 'Sentinel';
-  src: url(fonts/Sentinel/Sentinel-Book.otf);
+  src: url("fonts/Sentinel/Sentinel-Book.otf");
 }
 
 body{
