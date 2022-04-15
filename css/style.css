@@ -1,16 +1,16 @@
 @font-face {
-  font-family: 'Union', Arial;
+  font-family: 'Union';
   src: url("fonts/Union/Union-Regular.otf");
 }
 
 @font-face {
-  font-family: 'Sentinel', Georgia, serif;
+  font-family: 'Sentinel';
   font-weight: normal;
   src: url("fonts/Sentinel/Sentinel-Book.otf") format("opentype");
 }
 
 body{
-  font-family: 'Union', sans-serif;
+  font-family: 'Union', Arial, sans-serif;
   font-size: 1.2em;
   line-height: 1.4em;
   letter-spacing: 1px;
@@ -21,7 +21,7 @@ p {
 }
 
 .title {
-  font-family: 'Sentinel', Georgia;
+  font-family: 'Sentinel', Garamond, serif;
   font-size: 1.3em;
   line-height: 1.3em;
   letter-spacing: 0.5px;
