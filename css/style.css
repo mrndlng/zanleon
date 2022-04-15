@@ -14,13 +14,14 @@ body{
   font-size: 1.2em;
   line-height: 1.4em;
   letter-spacing: 1px;
+  margin: 1em;
 }
 
 p {
   margin-bottom: .5em;
 }
 
-.title {
+h2, .title {
   font-family: 'Sentinel', Garamond, serif;
   font-size: 1.3em;
   line-height: 1.3em;
@@ -76,13 +77,13 @@ div.slider {
   margin: 30px auto;
 }
 
-.projects {
+/* .projects {
 	margin: 1em;
-}
+} */
 
-.home p {
+/* .home p {
   margin: 1em;
-}
+} */
 
 hr {
 	/* border-bottom: 5px solid #f5f5f5; */
@@ -124,10 +125,6 @@ hr {
   hr {
     border: 1px solid #808080;
   }
-  /* p, h1 {
-    font-size: 0.8em;
-    line-height: 1.2em;
-  } */
   button {
     font-size: 1em;
     margin-top: 1em;
