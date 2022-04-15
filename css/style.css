@@ -1,20 +1,19 @@
 @font-face {
-  font-family: 'Union', sans-serif;
+  font-family: 'Union', Arial;
   src: url("fonts/Union/Union-Regular.otf");
 }
 
 @font-face {
-  font-family: 'Sentinel';
-  src: url("fonts/Sentinel/Sentinel-Book.otf");
+  font-family: 'Sentinel', Georgia, serif;
+  font-weight: normal;
+  src: url("fonts/Sentinel/Sentinel-Book.otf") format("opentype");
 }
 
 body{
   font-family: 'Union', sans-serif;
-  /* font-weight: lighter; */
   font-size: 1.2em;
   line-height: 1.4em;
   letter-spacing: 1px;
-  /* font-kerning: normal; */
 }
 
 p {
@@ -22,8 +21,7 @@ p {
 }
 
 .title {
-  font-family: 'Sentinel', serif;
-  font-weight: normal;
+  font-family: 'Sentinel', Georgia;
   font-size: 1.3em;
   line-height: 1.3em;
   letter-spacing: 0.5px;
