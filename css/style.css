@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'Union';
-  src: url("fonts/Union/Union-Regular.otf");
+  src: url("/fonts/Union/Union-Regular.otf");
 }
 
 @font-face {
   font-family: 'Sentinel';
   font-weight: normal;
-  src: url("fonts/Sentinel/Sentinel-Book.otf") format("opentype");
+  src: url("/fonts/Sentinel/Sentinel-Book.otf") format("opentype");
 }
 
 body{
@@ -22,7 +22,6 @@ p {
 }
 
 h2, .title {
-  /* font-family: 'BIZ UDMincho', serif; */
   font-family: 'Sentinel', Garamond, serif;
   font-size: 1.3em;
   line-height: 1.3em;
@@ -51,11 +50,12 @@ button:hover {
   cursor: crosshair;
 }
 
-img, iframe {
+img {
   display: block;
   max-width: 88vw;
   /* max-height: 80vh; */
   margin: 30px auto;
+  border-radius: 12px;
   /* -webkit-box-shadow: 10px 13px 31px -12px rgba(92,92,92,1);
   -moz-box-shadow: 10px 13px 31px -12px rgba(92,92,92,1);
   box-shadow: 10px 13px 31px -12px rgba(92,92,92,1); */
@@ -75,7 +75,7 @@ div.slider {
 
 .gallery img {
   display: block;
-  max-width: 88vw;
+  /* max-width: 88vw; */
   margin: 30px auto;
 }
 
