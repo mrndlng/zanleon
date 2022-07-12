@@ -1,12 +1,13 @@
 @font-face {
-  font-family: 'Union';
-  src: url("/fonts/Union/Union-Regular.otf");
+  font-family: Union;
+  /* src: url("/fonts/Union/Union-Regular.otf"); */
+  src: url('../fonts/Union/Union-Regular.otf') format('opentype');
 }
 
 @font-face {
-  font-family: 'Sentinel';
+  font-family: Sentinel;
+  src: url('../fonts/Sentinel/Sentinel-Book.otf') format('opentype');
   font-weight: normal;
-  src: url("/fonts/Sentinel/Sentinel-Book.otf") format("opentype");
 }
 
 body{
@@ -14,14 +15,13 @@ body{
   font-size: 1.2em;
   line-height: 1.4em;
   letter-spacing: 1px;
-  margin: 1.5em;
 }
 
 p {
-  margin-bottom: .5em;
+  margin: 0em 0em .5em 1em;
 }
 
-h2, .title {
+.title {
   font-family: 'Sentinel', Garamond, serif;
   font-size: 1.3em;
   line-height: 1.3em;
@@ -52,8 +52,7 @@ button:hover {
 
 img {
   display: block;
-  max-width: 88vw;
-  /* max-height: 80vh; */
+  max-width: 80vw;
   margin: 30px auto;
   border-radius: 12px;
   /* -webkit-box-shadow: 10px 13px 31px -12px rgba(92,92,92,1);
@@ -63,20 +62,19 @@ img {
 
 div.slider {
   position: relative;
-  margin: 0;
-  width: 100%;
+  /* margin: 0; */
+  /* width: 100%; */
 }
 
 .gallery {
   position: relative;
-  margin: 0 auto;
-  text-align: center;
+  /* margin: 0 auto; */
 }
 
 .gallery img {
   display: block;
   /* max-width: 88vw; */
-  margin: 30px auto;
+  /* margin: 30px auto; */
 }
 
 hr {
@@ -105,8 +103,8 @@ hr {
     background: white;
     color: black;
   } */
-  p, h1 {
-    width: 75%;
+  p {
+    width: 65%;
   }
 }
 
