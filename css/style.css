@@ -1,6 +1,5 @@
 @font-face {
   font-family: Union;
-  /* src: url("/fonts/Union/Union-Regular.otf"); */
   src: url('../fonts/Union/Union-Regular.otf') format('opentype');
 }
 
@@ -11,21 +10,28 @@
 }
 
 body{
-  font-family: 'Union', Arial, sans-serif;
+  margin: 0em 1em 0em 1em;
+  /* font-family: 'Union', Arial, sans-serif;
   font-size: 1.2em;
   line-height: 1.4em;
-  letter-spacing: 1px;
+  letter-spacing: 1px; */
 }
 
 p {
-  margin: 0em 0em .5em 1em;
-}
-
-.title {
-  font-family: 'Sentinel', Garamond, serif;
+  font-family: 'Union', Arial, sans-serif;
   font-size: 1.3em;
   line-height: 1.3em;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
+  /* font-size: 1.2em;
+  line-height: 1.4em;
+  letter-spacing: 1px; */
+}
+
+p.title {
+  font-family: 'Sentinel', Garamond, serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  letter-spacing: 0px;
 }
 
 a{
@@ -52,7 +58,7 @@ button:hover {
 
 img {
   display: block;
-  max-width: 80vw;
+  width: 80vw;
   margin: 30px auto;
   border-radius: 12px;
   /* -webkit-box-shadow: 10px 13px 31px -12px rgba(92,92,92,1);
