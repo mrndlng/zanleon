@@ -10,24 +10,22 @@
 }
 
 body{
-  margin: 0em 1em 0em 1em;
-  /* font-family: 'Union', Arial, sans-serif;
-  font-size: 1.2em;
-  line-height: 1.4em;
-  letter-spacing: 1px; */
+  /* margin: 0em 1em 0em 1em; */
+  margin: auto;
+  width: 60%;
 }
 
 p {
   font-family: 'Union', Arial, sans-serif;
-  font-size: 1.3em;
-  line-height: 1.3em;
-  letter-spacing: 0.5px;
+  font-size: 1.1em;
+  line-height: 1.2em;
+  letter-spacing: 1px;
 }
 
 p.title {
   font-family: 'Sentinel', Garamond, serif;
-  font-size: 2em;
-  line-height: 1.5em;
+  font-size: 1.5em;
+  line-height: 1em;
   letter-spacing: 0px;
   margin-bottom: 0.5em;
 }
@@ -39,27 +37,6 @@ p.attribution {
 
 * {
   box-sizing: border-box;
-}
-
-/* Create two unequal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 1em;
-}
-
-.left {
-  width: 65%;
-}
-
-.right {
-  width: 35%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 a{
@@ -86,7 +63,7 @@ button:hover {
 
 img {
   display: block;
-  width: 80vw;
+  width: 100%;
   margin: 30px auto;
   border-radius: 12px;
 }
@@ -123,6 +100,36 @@ iframe {
   border-radius: 12px;
 }
 
+.columnL {
+  float: left;
+  width: 30%;
+  padding: 1em;
+  height:100%;
+  /* position: fixed;
+  left:0;
+  top:0; */
+}
+
+.columnR {
+  float: left;
+  width: 70%;
+  padding: 1em;
+  /* height:100%;
+  overflow: auto; */
+}
+
+/* Clear floats after the columns */
+/* .row:after {
+  clear: both;
+} */
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnL, .columnR, body {
+    width: 90vw;
+  }
+}
+
 hr {
   border: 1px solid #f5f5f5;
   margin-bottom: 1.3em;
@@ -144,15 +151,11 @@ hr {
 \*------------------------------------*/
 
 /* Desktop */
-@media only screen and (min-width: 501px) {
-  /* body {
-    background: white;
-    color: black;
-  } */
+/* @media only screen and (min-width: 501px) {
   p {
     width: 65%;
   }
-}
+} */
 
 @media only screen and (max-width: 500px) and (min-width: 320px) /* Mobile */ {
   body {
@@ -168,12 +171,5 @@ hr {
     border: 1px solid white;
     background: none;
     color: white;
-  }
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
   }
 }
